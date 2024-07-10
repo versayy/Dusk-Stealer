@@ -59,7 +59,7 @@
 
 1. Extract zip
 2. First install reqiured packages by double clicking `install.bat` file
-3. Run the python source code and change `h00k`
+3. Run the python source code and change `YOUR_WEBHOOK_URL` line 121
 4. Follow instructions and if you want obfuscate it and send it to a victim
    * this obfuscator = 0 detections on VirusTotal  https://pyobfuscate.com
 
